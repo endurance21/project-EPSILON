@@ -2,7 +2,14 @@
   text-align: center;
   color:red;
   font-size:2rem;
+  height: 200vh;
 }
-
+.calender{
+  height:fit-content;
+  margin:30vh auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 

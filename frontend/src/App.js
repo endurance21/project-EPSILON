@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
+import Calender from './components/calender/index'
 
 function App() {
   return (
     <div className="App">
-      <marquee>
-       HEY ! I AM PROJECT EPSILON
-       </marquee>
+      <div className = "calender">
+       <Calender></Calender>
+      </div>
     </div>
   );
 }
