@@ -6,7 +6,7 @@ import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 // assets for this
 import './index.css';
 import './assets/css/LoginPage.css'
-import App from './App';
+// import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 // pages for this
