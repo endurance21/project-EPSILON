@@ -13,6 +13,7 @@ import * as serviceWorker from './serviceWorker';
 import Index from "./views/Index.js";
 import LoginPage from "./views/examples/LoginPage.js";
 import VenuePage from "./views/examples/VenuePage.js";
+import CalenderPage from "./views/examples/CalenderPage.js";
 
 ReactDOM.render(
     <BrowserRouter>
@@ -20,6 +21,7 @@ ReactDOM.render(
             <Route path="/index" render={props => <Index {...props} /> } />
             <Route path="/login-page" render={props => <LoginPage {...props} /> } />
             <Route path="/venue-page" render={props => <VenuePage {...props} /> } />
+            <Route path="/calender-page" render={props => <CalenderPage {...props} /> } />
             <Redirect to="/index" />
             <Redirect from="/" to="/index" />
         </Switch>

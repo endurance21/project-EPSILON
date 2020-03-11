@@ -35,7 +35,7 @@ class LoginPage extends Component {
                                         <div className="col-sm-12">
                                             <strong>Username:</strong>
                                             <input name="txtUsername" type="text" id="txtUsername" className="form-control" placeholder="abc@cs.iitr.ac.in"/>
-                                            <span id="RequiredFieldValidator1" className="text-danger" style={{display:"none"}}placeholder="(minimum 8 characters)">*</span>
+                                            <span id="RequiredFieldValidator1" className="text-danger" style={{display:"none"}}placeholder="">*</span>
                                         </div>
                                     </div>
 
@@ -48,7 +48,7 @@ class LoginPage extends Component {
                                     <div className="form-group">
                                         <div className="col-sm-12">
                                             <input name="txtPassword" type="password" id="txtPassword" className="form-control" />
-                                            <span id="RequiredFieldValidator2" className="text-danger" style={{display:"none"}}>*</span>
+                                            <span id="RequiredFieldValidator2" className="text-danger" style={{display:"none"}} placeholder="(minimum 8 characters)">*</span>
                                         </div>
                                     </div>
 
