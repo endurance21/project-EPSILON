@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  color:red;
+  font-size:2rem;
+}
+
+#mainBuilding{
+position: absolute;
+width: 1000px;
+height: 333px;
+left: 190px;
+top: 150px;
+}
+
+#index{
+position: absolute;
+width: 90px;
+height: 90px;
+left: 650px;
+top: 545px;
+cursor: pointer;
+
+}
+
+#venue{
+position: absolute;
+width: 220px;
+height: 50px;
+left: 595px;
+top: 480px;
+cursor: pointer;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 37px;
+
+color: #373C61;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

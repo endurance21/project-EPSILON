@@ -1,0 +1,48 @@
+.hindiName{
+	position: absolute;
+	width: 658px;
+	height: 51px;
+	left: 400px;
+	top: -10px;
+
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 30px;
+	word-spacing: 15px;
+
+	color: #373C61;
+}
+
+.englishName{
+	position: absolute;
+	width: 692px;
+	height: 72px;
+	left: 400px;
+	top: 25px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 33px;
+
+	color: #373C61;
+}
+
+.logo{
+	position: absolute;
+	width: 5em;
+	height: 5em;
+	left: 300px;
+	top: 10px;
+}
+
+.border1{
+	position: absolute;
+	width: 1349px;
+	height: 0.1em;
+	left: 0em;
+	top: 100px;
+}
