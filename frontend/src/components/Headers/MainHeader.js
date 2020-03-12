@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class MainHeader extends Component {
     // state = {  }
     render() { 
-        return ( <div> Including MainHeader for test.</div> );
+        return ( <div> MainHeader for test.</div> );
     }
 }
  
