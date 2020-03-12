@@ -1,7 +1,6 @@
 import React from 'react';
 import './header.css';
 import line1 from './Line 1.png';
-import line2 from './Line 1.png';
 import logo from './IITR 1.png';
 
 const Header = () => {
