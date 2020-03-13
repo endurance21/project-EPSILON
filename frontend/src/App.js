@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import "bootstrap/dist/css/bootstrap.css";
+import EventDescription from './components/eventDescription/index'
 
 function App() {
   return (
